@@ -103,7 +103,7 @@ jobs:
     - name: Upload binaries to release
       uses: svenstaro/upload-release-action@v1-release
       with:
-        repo_token: ${{ secrets.R_TOKEN }}
+        repo_token: ${{ padavan.b4dfff51af1213e143cc76844491afabdb5d8518 }}
         file: /opt/images/*.trx
         tag: AtuoBuild
         overwrite: true
